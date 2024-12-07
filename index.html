@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <script src="./script.js"></script>
+        
+        <title>Task 5</title>
+    </head>
+    <body>
+        <section class="content">
+            <div class="block first">
+                <h2>Новость 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+                <button class="button first" onclick="showNews(1)">Открыть всплывающее окно</button>
+            </div>
+            <div class="block second">
+                <h2>Новость 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+                <button class="button second" onclick="showNews(2)">Открыть всплывающее окно</button>
+            </div>
+            <div class="block third">
+                <h2>Новость 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!</p>
+                <button class="button third" onclick="showNews(3)">Открыть всплывающее окно</button>
+            </div>
+
+            <div class="hidden_block" id="1" onclick="hideNews(1)">
+                <div class="popup_content">
+                    <h2>Новость 1</h2>
+                    <p>
+                        Новость 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis! <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
+                    </p>
+                </div>
+            </div>
+            <div class="hidden_block" id="2" onclick="hideNews(2)">
+                <div class="popup_content">
+                    <h2>Новость 2</h2>
+                    <p>
+                        Новость 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis! 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
+                    </p>
+                </div>
+            </div>
+            <div class="hidden_block" id="3" onclick="hideNews(3)">
+                <div class="popup_content">
+                    <h2>Новость 3</h2>
+                    <p>
+                        Новость 3: Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis! <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
